@@ -1,5 +1,8 @@
+# Contribution Guide
+This is a guide on how to contribute
+日本語版は[こちら](/CONTRIBUTING-JP.md)です
 ## Branch Rules:
-**Please name your branches in the order of year, month, day, and name. Example: 24-05-15ryoji**
+**Please name your branches in the order of year, month, day, and name. sample) 24-05-15ryoji**
 
 Prerequisites: Mac OS, using the zsh directory
 
@@ -31,8 +34,9 @@ setopt PROMPT_SUBST
 PS1='%F{green}%n%f: %F{cyan}%D%~%f %F{red}$(__git_ps1 "(%s)")%f \$ '
 ```
 
-Please refer to the following URL:
-https://qiita.com/SabaCrevette/items/56dff171b36888f0445b
+#### I edited this based on the information from the following [URL](https://qiita.com/SabaCrevette/items/56dff171b36888f0445b). Please take a look.
 
-**Regarding** ```setopt PROMPT_SUBST```, this is different from the referenced URL.
+#### Regarding
+```setopt PROMPT_SUBST ; PS1='%F{green}%n%f: %F{cyan}%D%~%f %F{red}$(__git_ps1 "(%s)")%f \$ '```
+this is different from the referenced [URL](https://qiita.com/SabaCrevette/items/56dff171b36888f0445b).
 Please note that I have modified it according to the branch rules so that the date appears in the terminal
